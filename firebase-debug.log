@@ -1,0 +1,49 @@
+[debug] [2025-04-23T03:55:53.446Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T03:55:53.458Z] Command:       C:\Users\Tamakorn\study\CEDT\backend\node.exe C:\Users\Tamakorn\study\CEDT\software en\firebase\sl\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-23T03:55:53.459Z] CLI Version:   14.2.0
+[debug] [2025-04-23T03:55:53.460Z] Platform:      win32
+[debug] [2025-04-23T03:55:53.460Z] Node Version:  v22.14.0
+[debug] [2025-04-23T03:55:53.461Z] Time:          Wed Apr 23 2025 10:55:53 GMT+0700 (Indochina Time)
+[debug] [2025-04-23T03:55:53.461Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T03:55:53.957Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T03:55:53.957Z] > authorizing via signed-in user (kittycatty.2548@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-23T03:55:53.970Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T03:55:53.970Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-23T03:55:53.970Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-23T03:55:53.976Z] [hub] writing locator at C:\Users\Tamakorn\AppData\Local\Temp\hub-kitty-e6351.json
+[debug] [2025-04-23T03:55:54.005Z] Checked if tokens are valid: true, expires at: 1745383721774
+[debug] [2025-04-23T03:55:54.005Z] Checked if tokens are valid: true, expires at: 1745383721774
+[debug] [2025-04-23T03:55:54.007Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/kitty-e6351/sites 
+[debug] [2025-04-23T03:55:54.773Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/kitty-e6351/sites 200
+[debug] [2025-04-23T03:55:54.773Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/kitty-e6351/sites {"sites":[{"name":"projects/kitty-e6351/sites/kitty-e6351","defaultUrl":"https://kitty-e6351.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-23T03:55:54.773Z] Checked if tokens are valid: true, expires at: 1745383721774
+[debug] [2025-04-23T03:55:54.773Z] Checked if tokens are valid: true, expires at: 1745383721774
+[debug] [2025-04-23T03:55:54.774Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kitty-e6351/webApps/-/config [none]
+[debug] [2025-04-23T03:55:55.230Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kitty-e6351/webApps/-/config 200
+[debug] [2025-04-23T03:55:55.231Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kitty-e6351/webApps/-/config {"projectId":"kitty-e6351","storageBucket":"kitty-e6351.firebasestorage.app","apiKey":"AIzaSyDyS8_1w9H_Lyz-EaEtWac6aPyGgvb2YIA","authDomain":"kitty-e6351.firebaseapp.com","messagingSenderId":"381286961623"}
+[debug] [2025-04-23T03:55:55.318Z] Checked if tokens are valid: true, expires at: 1745383721774
+[debug] [2025-04-23T03:55:55.318Z] Checked if tokens are valid: true, expires at: 1745383721774
+[debug] [2025-04-23T03:55:55.319Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/kitty-e6351 [none]
+[debug] [2025-04-23T03:55:55.702Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/kitty-e6351 200
+[debug] [2025-04-23T03:55:55.703Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/kitty-e6351 {"projectId":"kitty-e6351","projectNumber":"381286961623","displayName":"kitty","name":"projects/kitty-e6351","resources":{"hostingSite":"kitty-e6351"},"state":"ACTIVE","etag":"1_34200dbd-8e21-46ea-ad4f-d309a37be028"}
+[info] i  hosting[kitty-e6351]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[kitty-e6351]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-23T03:55:56.096Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:9999 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
